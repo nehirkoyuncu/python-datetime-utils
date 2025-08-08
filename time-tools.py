@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
 def format_date(timestamp,datetime_format):
-    date = datetime.datetime.utcfromtimestamp(timestamp)
+    date =datetime.utcfromtimestamp(timestamp)
     return date.strftime(datetime_format)
 
 
